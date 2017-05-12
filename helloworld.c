@@ -66,7 +66,7 @@ void print_out_name(linkedlist* list, int n){
 		printf("Hello, %s!\n", current->name);
 		current = current->next;
 	}
-	/* when print node's data, use 'while' with condition that until next pointer sisn't NULL in usual case*/
+	/* when print node's data, use 'while' with condition that until next pointer isn't NULL in usual case*/
 }
 
 void delete_node(linkedlist* list){
